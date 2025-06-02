@@ -1,249 +1,15 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ЗелТранс Логістика</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <h1>ЗелТранс Логістика</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Головна</a></li>
-                    <li><a href="#">Про нас</a></li>
-                    <li><a href="#">Послуги</a></li>
-                    <li><a href="#">Автопарк</a></li>
-                    <li><a href="#">Контакти</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <section class="hero">
-        <div class="container">
-            <h2>Надійні вантажні перевезення та логістичні рішення</h2>
-            <p>Власний автопарк. Доставка по Україні та за кордон.</p>
-            <a href="#" class="btn">Замовити перевезення</a>
-        </div>
-    </section>
-
-    <section class="about">
-        <div class="container">
-            <h3>Про компанію</h3>
-            <p>Ми забезпечуємо комплексні логістичні послуги, маючи власний парк вантажівок і команду досвідчених водіїв. Працюємо швидко, відповідально та прозоро.</p>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>© 2025 ЗелТранс Логістика. Всі права захищені.</p>
-        </div>
-    </footer>
-</body>
-</html>/
-* Основні кольори */:root {
-    --main-green: #2E7D32;
-    --light-green: #4CAF50;
-    --text-color: #333;
-    --bg-light: #f9f9f9;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background-color: var(--bg-light);
-    color: var(--text-color);
-}
-
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
-}
-
-/* Header */
-header {
-    background-color: var(--main-green);
-    color: white;
-    padding: 20px 0;
-}
-
-header h1 {
-    margin-bottom: 10px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* Hero Section */
-.hero {
-    background: url('https://images.unsplash.com/photo-1597095811436-70ffbfb61168?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
-    color: white;
-    text-align: center;
-    padding: 80px 20px;
-}
-
-.hero h2 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-}
-
-.hero p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-}
-
-.btn {
-    background-color: var(--light-green);
-    padding: 12px 25px;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-}
-
-/* About Section */
-.about {
-    padding: 60px 20px;
-    background-color: white;
-}
-
-.about h3 {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-/* Footer */
-footer {
-    background-color: var(--main-green);
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 40px;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .hero h2 {
-        font-size: 2em;
-    }
-}
-<!DOCTYPE html>
-<html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Послуги — ЗелТранс Логістика</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <h1>ЗелТранс Логістика</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Головна</a></li>
-                    <li><a href="#">Про нас</a></li>
-                    <li><a href="services.html">Послуги</a></li>
-                    <li><a href="#">Автопарк</a></li>
-                    <li><a href="#">Контакти</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <section class="page-title">
-        <div class="container">
-            <h2>Наші послуги</h2>
-            <p>Ми пропонуємо комплексні рішення для бізнесу та приватних клієнтів</p>
-        </div>
-    </section>
-
-    <section class="services-list">
-        <div class="container">
-            <div class="service">
-                <h3>Вантажні перевезення по Україні</h3>
-                <p>Надійна доставка по всіх регіонах країни. Гарантія збереження вантажу та чітке дотримання термінів.</p>
-            </div>
-            <div class="service">
-                <h3>Міжнародні перевезення</h3>
-                <p>Організовуємо логістику по Європі та країнах СНД. Повний документальний супровід та митне оформлення.</p>
-            </div>
-            <div class="service">
-                <h3>Логістичний аутсорсинг</h3>
-                <p>Передайте логістику під наш контроль. Оптимізація витрат, трекінг, контроль якості доставки.</p>
-            </div>
-            <div class="service">
-                <h3>Складські послуги</h3>
-                <p>Зберігання, комплектація, палетування. Довгострокові та тимчасові рішення для зберігання товарів.</p>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>© 2025 ЗелТранс Логістика. Всі права захищені.</p>
-        </div>
-    </footer>
-</body>
-</html>
-.page-title {
-    padding: 60px 20px 20px;
-    text-align: center;
-    background-color: var(--light-green);
-    color: white;
-}
-
-.services-list {
-    padding: 40px 20px;
-    background-color: white;
-}
-
-.service {
-    margin-bottom: 40px;
-}
-
-.service h3 {
-    color: var(--main-green);
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-<!DOCTYPE html>
-<html lang="uk">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Автопарк — ЗелТранс Логістика</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GlobalWay - Головна</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
     <div class="container">
-      <h1>ЗелТранс Логістика</h1>
+      <h1>GlobalWay</h1>
       <nav>
         <ul>
           <li><a href="index.html">Головна</a></li>
@@ -256,146 +22,33 @@ footer {
     </div>
   </header>
 
-  <section class="page-title">
+  <section class="hero">
     <div class="container">
-      <h2>Наш автопарк</h2>
-      <p>Сучасні вантажівки для будь-яких логістичних задач</p>
-    </div>
-  </section>
-
-  <section class="fleet-gallery container">
-    <div class="fleet-item">
-      <img src="https://picsum.photos/id/1027/600/400" alt="Вантажівка 1">
-      <h3>DAF XF 105</h3>
-      <p>Потужна машина для міжнародних перевезень, відповідає стандарту Євро 6.</p>
-    </div>
-    <div class="fleet-item">
-      <img src="https://picsum.photos/id/1018/600/400" alt="Вантажівка 2">
-      <h3>Mercedes Actros</h3>
-      <p>Ідеальне рішення для важких та об'ємних вантажів. Висока паливна ефективність.</p>
-    </div>
-    <div class="fleet-item">
-      <img src="https://picsum.photos/id/1040/600/400" alt="Вантажівка 3">
-      <h3>Volvo FH</h3>
-      <p>Надійність, комфорт водія та відмінна вантажопідйомність – усе в одному.</p>
+      <h2>Надійні вантажні перевезення та логістичні послуги</h2>
+      <p>Власний автопарк, сучасний сервіс та професіоналізм.</p>
+      <a href="contacts.html" class="btn">Зв’язатися з нами</a>
     </div>
   </section>
 
   <footer>
     <div class="container">
-      <p>© 2025 ЗелТранс Логістика. Всі права захищені.</p>
+      <p>© 2025 GlobalWay. Всі права захищені.</p>
     </div>
   </footer>
 </body>
 </html>
-.fleet-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-    padding: 40px 0;
-}
-
-.fleet-item img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-.fleet-item h3 {
-    margin-top: 15px;
-    color: var(--main-green);
-}
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Контакти — ЗелТранс Логістика</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Про нас — GlobalWay</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
     <div class="container">
-      <h1>ЗелТранс Логістика</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Головна</a></li>
-          <li><a href="about.html">Про нас</a></li>
-          <li><a href="services.html">Послуги</a></li>
-          <li><a href="fleet.html">Автопарк</a></li>
-          <li><a href="contacts.html">Контакти</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <section class="page-title">
-    <div class="container">
-      <h2>Контакти</h2>
-      <p>Зв'яжіться з нами зручним для вас способом</p>
-    </div>
-  </section>
-
-  <section class="contacts container">
-    <div>
-      <h3>Наші контакти:</h3>
-      <p>📞 +38 (067) 123-45-67</p>
-      <p>✉️ info@zeltrans.com.ua</p>
-      <p>📍 м. Київ, вул. Логістична, 12</p>
-    </div>
-    <form>
-      <h3>Зворотній зв'язок</h3>
-      <input type="text" placeholder="Ваше ім'я" required>
-      <input type="email" placeholder="Email" required>
-      <textarea placeholder="Повідомлення" required></textarea>
-      <button type="submit" class="btn">Надіслати</button>
-    </form>
-  </section>
-
-  <footer>
-    <div class="container">
-      <p>© 2025 ЗелТранс Логістика. Всі права захищені.</p>
-    </div>
-  </footer>
-</body>
-</html>
-.contacts {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    padding: 40px 0;
-}
-
-.contacts form {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-.contacts form input,
-.contacts form textarea {
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.contacts form textarea {
-    height: 120px;
-    resize: vertical;
-}
-<!DOCTYPE html>
-<html lang="uk">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Про нас — ЗелТранс Логістика</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <div class="container">
-      <h1>ЗелТранс Логістика</h1>
+      <h1>GlobalWay</h1>
       <nav>
         <ul>
           <li><a href="index.html">Головна</a></li>
@@ -425,8 +78,361 @@ footer {
 
   <footer>
     <div class="container">
-      <p>© 2025 ЗелТранс Логістика. Всі права захищені.</p>
+      <p>© 2025 GlobalWay. Всі права захищені.</p>
     </div>
   </footer>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Послуги — GlobalWay</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>GlobalWay</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Головна</a></li>
+          <li><a href="about.html">Про нас</a></li>
+          <li><a href="services.html">Послуги</a></li>
+          <li><a href="fleet.html">Автопарк</a></li>
+          <li><a href="contacts.html">Контакти</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-title">
+    <div class="container">
+      <h2>Наші послуги</h2>
+      <p>Ми пропонуємо комплексні рішення для бізнесу та приватних клієнтів</p>
+    </div>
+  </section>
+
+  <section class="services-list container">
+    <div class="service">
+      <h3>Вантажні перевезення по Україні</h3>
+      <p>Надійна доставка по всіх регіонах країни. Гарантія збереження вантажу та чітке дотримання термінів.</p>
+    </div>
+    <div class="service">
+      <h3>Міжнародні перевезення</h3>
+      <p>Організовуємо логістику по Європі та країнах СНД. Повний документальний супровід та митне оформлення.</p>
+    </div>
+    <div class="service">
+      <h3>Логістичний аутсорсинг</h3>
+      <p>Передайте логістику під наш контроль. Оптимізація витрат, трекінг, контроль якості доставки.</p>
+    </div>
+    <div class="service">
+      <h3>Складські послуги</h3>
+      <p>Зберігання, комплектація, палетування. Довгострокові та тимчасові рішення для зберігання товарів.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 GlobalWay. Всі права захищені.</p>
+    </div>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Автопарк — GlobalWay</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>GlobalWay</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Головна</a></li>
+          <li><a href="about.html">Про нас</a></li>
+          <li><a href="services.html">Послуги</a></li>
+          <li><a href="fleet.html">Автопарк</a></li>
+          <li><a href="contacts.html">Контакти</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-title">
+    <div class="container">
+      <h2>Наш автопарк</h2>
+      <p>Сучасні вантажівки для будь-яких логістичних задач</p>
+    </div>
+  </section>
+
+  <section class="fleet-gallery container">
+    <div class="fleet-item">
+      <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80" alt="Вантажівка 1" />
+      <h3>DAF XF 105</h3>
+      <p>Потужна машина для міжнародних перевезень, відповідає стандарту Євро 6.</p>
+    </div>
+    <div class="fleet-item">
+      <img src="https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=600&q=80" alt="Вантажівка 2" />
+      <h3>Mercedes Actros</h3>
+      <p>Ідеальне рішення для важких та об'ємних вантажів. Висока паливна ефективність.</p>
+    </div>
+    <div class="fleet-item">
+      <img src="https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?auto=format&fit=crop&w=600&q=80" alt="Вантажівка 3" />
+      <h3>Volvo FH</h3>
+      <p>Надійність, комфорт водія та відмінна вантажопідйомність – усе в одному.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 GlobalWay. Всі права захищені.</p>
+    </div>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Контакти — GlobalWay</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>GlobalWay</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Головна</a></li>
+          <li><a href="about.html">Про нас</a></li>
+          <li><a href="services.html">Послуги</a></li>
+          <li><a href="fleet.html">Автопарк</a></li>
+          <li><a href="contacts.html">Контакти</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-title">
+    <div class="container">
+      <h2>Контакти</h2>
+      <p>Зв'яжіться з нами для співпраці</p>
+    </div>
+  </section>
+
+  <section class="contacts container">
+    <h3>Телефон</h3>
+    <p><a href="tel:+380732178534">0732178534</a></p>
+
+    <h3>Адреса</h3>
+    <p>м. Ковель, Брестська 111г</p>
+
+    <h3>Email</h3>
+    <p><a href="mailto:info@globalway.com.ua">info@globalway.com.ua</a></p>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 GlobalWay. Всі права захищені.</p>
+    </div>
+  </footer>
+</body>
+</html>
+/* Основні стилі */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f9f4;
+  color: #2e4d29;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background: #2e7d32;
+  color: white;
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+header h1 {
+  margin-left: 15px;
+  font-size: 2rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+nav {
+  display: inline-block;
+  float: right;
+  margin-right: 15px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #c8e6c9;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #a5d6a7;
+}
+
+.hero {
+  background: linear-gradient(rgba(46,125,50,0.8), rgba(46,125,50,0.8)),
+    url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80') no-repeat center center/cover;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+.btn {
+  background: #4caf50;
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background: #388e3c;
+}
+
+/* Заголовки сторінок */
+
+.page-title {
+  padding: 40px 0 20px;
+  text-align: center;
+  background: #dcedc8;
+  color: #2e4d29;
+}
+
+.page-title h2 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+/* Секції */
+
+.container h3 {
+  margin-bottom: 15px;
+  color: #2e7d32;
+}
+
+.about p,
+.services-list .service p,
+.contacts p {
+  font-size: 1rem;
+  margin-bottom: 25px;
+}
+
+/* Послуги */
+
+.services-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 40px 0;
+}
+
+/* Автопарк */
+
+.fleet-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 40px 0;
+}
+
+.fleet-item img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+/* Контакти */
+
+.contacts {
+  padding: 40px 0;
+}
+
+.contacts h3 {
+  margin-top: 20px;
+}
+
+.contacts a {
+  color: #2e7d32;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contacts a:hover {
+  text-decoration: underline;
+}
+
+/* Футер */
+
+footer {
+  background: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+
+/* Адаптивність */
+
+@media (max-width: 768px) {
+  nav ul li {
+    display: block;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  nav {
+    float: none;
+    text-align: center;
+    margin: 10px 0 0 0;
+  }
+}
